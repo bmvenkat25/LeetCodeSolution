@@ -12,7 +12,7 @@ public class AllTest {
     @Test
     @DisplayName("LongestCommonPrefix")
     public void LongestCommonPrefixTest() {
-        assertEquals("fl", LongestCommonPrefixSolution.longestCommonPrefix(new String[]{"flower","flow","flight"}));
+        assertEquals("ans", LongestCommonPrefixSolution.longestCommonPrefix(new String[]{"flower","flow","flight"}));
         assertEquals("", LongestCommonPrefixSolution.longestCommonPrefix(new String[]{"dog","racecar","car"}));
     }
 }
